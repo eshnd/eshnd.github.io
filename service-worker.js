@@ -3,7 +3,7 @@ self.addEventListener('install', event => {
     caches.open('static-v1').then(cache => {
       return cache.addAll([
         '/',
-        '/random-number-test.html',
+        '/index.html',
         '/styles.css',
         '/script.js',
         '/manifest.json',
