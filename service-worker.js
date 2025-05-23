@@ -6,8 +6,7 @@ self.addEventListener('install', event => {
         '/index.html',
         '/styles.css',
         '/script.js',
-        '/manifest.json',
-        '/random-number-generator-testing.json'
+        '/manifest.json'
       ]);
     })
   );
